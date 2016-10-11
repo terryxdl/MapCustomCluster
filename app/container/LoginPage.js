@@ -6,7 +6,6 @@ import { bindActionCreators } from  'redux';
 import { connect } from  'react-redux';
 import {browserHistory,Link,IndexLink} from 'react-router';
 import * as Actions from '../actions/index.js';
-import * as Common from '../common/Common.js';
 import * as Global from '../constants/Global.js';
 import * as ConstData from '../constants/ConstData';
 

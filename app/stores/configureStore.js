@@ -1,5 +1,5 @@
 /**
- * Created by zhaoz on 2016-02-24.
+ * Created by terryxu on 16/6/22.
  */
 import { createStore, applyMiddleware,compose } from 'redux'
 import thunkMiddleware from 'redux-thunk';

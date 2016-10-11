@@ -1,7 +1,5 @@
 /**
- * Created by zhaoz on 2016-02-26.
- * Nrng-Web程序入口，这里的Link，只放页面级别的组件
- *
+ * Created by terryxu on 16/6/22.
  */
 import React, {Component} from 'react';
 import {Link,IndexLink} from 'react-router';

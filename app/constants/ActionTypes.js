@@ -1,5 +1,5 @@
 /**
- * Created by zhaoz on 2016-02-24.
+ * Created by terryxu on 16/6/22.
  */
 
 export const USER_GET_DES_KEY = 'USER_GET_DES_KEY';

@@ -1,5 +1,5 @@
 /**
- * Created by zhaoz on 2016-02-26.
+ * Created by terryxu on 16/6/22.
  */
 import React from 'react';
 import { Router,Route,browserHistory,IndexRoute } from 'react-router';

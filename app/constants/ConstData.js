@@ -1,5 +1,5 @@
 /**
- * Created by zhaoz on 2016-03-04.
+ * Created by terryxu on 16/6/22.
  */
 export const IMG_HTTP_URL = 'http://114.55.138.149:1180';
 export const county = {
