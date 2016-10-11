@@ -1,0 +1,13 @@
+/**
+ * Created by zhaoz on 2016-02-24.
+ */
+
+import {combineReducers } from 'redux';
+
+import user from './user';
+
+const rootReducer = combineReducers({
+   user
+})
+
+export default rootReducer;

@@ -1,0 +1,179 @@
+/*样式初始化*/
+html, body, div, ul, li, p, input, button, h1, h2, h3, h4, h5, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+ul, li {
+    list-style: none;
+}
+
+em, i {
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+iframe {
+    border: 0 none;
+}
+
+.fixed:after {
+    clear: both;
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.fixed {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a, select, textarea {
+    font-size: 12px;
+    border: 0 none;
+    text-decoration: none;
+    outline: none;
+}
+
+.fixed:after {
+    clear: both;
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+html, body {
+    position: relative;
+    -webkit-text-size-adjust: none;
+    word-break: break-all;
+}
+
+/*主体样式表*/
+/*登录页*/
+.map_style {
+    width : auto;
+    height : 500px;
+}
+
+.info_box {
+    width: 300px;
+    height: 260px;
+    background: #fff;
+}
+.info_box a img{
+    width: 300px;
+    height: 140px;
+    float: left;
+}
+.leading_btn{
+    width: 64px;
+    height: 116px;
+    float: left;
+    border-right: 4px solid #f1e3df;
+}
+.leading_btn a{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 30px;
+    border: 1px solid #d5bc90;
+    font-size: 12px;
+    text-align: center;
+    line-height: 44px;
+    color: #c48973;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.details_box{
+    width: 190px;
+    height: 116px;
+    float: left;
+    margin-left: 16px;
+    padding-top: 14px;
+}
+.details_box h3{
+    width: 190px;
+    height: 20px;
+    font-size: 16px;
+    color: #be854d;
+    line-height: 20px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.details_box h3 img{
+    margin-right: 6px;
+}
+.details_box p{
+    width: 190px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #cca17b;
+    font-size:12px;
+    overflow: hidden;
+}
+.details_box a{
+    width: 50px;
+    height: 20px;
+    float: right;
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+}
+.msg_box {
+    width: 100px;
+    height: 20px;
+    float: left;
+    border-right: 4px solid #fff;
+    margin-top: 10px;
+}
+.msg_box ul{
+    overflow: hidden;
+}
+.msg_box li{
+    display: block;
+    width: 50px;
+    height: 20px;
+    float: left;
+}
+.msg_box li img{
+    width: 20px;
+    height: 16px;
+    float: left;
+}
+.msg_box li span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    color: #000;
+    font-size: 10px;
+}
+
+
