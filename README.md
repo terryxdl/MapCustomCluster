@@ -7,6 +7,9 @@
 1.下载到本地;
 2.进入项目目录;
 3.npm install
+3-1 如果npm install 报错,那就
+    npm install rimraf --save-dev
+    npm install webpack --save-dev
 4.npm run start:dev ,启动开发者HOT模式;
 5.npm run start:server ,启动生成环境服务端渲染模式；
 
